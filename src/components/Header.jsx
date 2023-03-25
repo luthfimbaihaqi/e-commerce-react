@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu} from 'react-icons/ai'
 import NavbarItem from './NavbarItem';
+import {Link} from 'react-router-dom'
 
 
 const Header = () => {
@@ -35,7 +36,7 @@ const Header = () => {
                 </svg>
                 Cart (0)
               </a>
-              <a href="/src/login.html" className="bg-black text-gray-50 btn text-primary p-3 px-3 sm:px-5 rounded-full ml-2 mb-2 font-Poppins mr-2 uppercase text-sm self-start hover:bg-gray-400">Log in</a>
+              <Link to="/login" className="bg-black text-gray-50 btn text-primary p-3 px-3 sm:px-5 rounded-full ml-2 mb-2 font-Poppins mr-2 uppercase text-sm self-start hover:bg-gray-400">Log in</Link>
               <a href="./register.html" className="bg-black text-gray-50 btn text-primary p-3 px-3 sm:px-5 rounded-full ml-2 mb-2 font-Poppins mr-4 uppercase text-sm self-start hover:bg-gray-400">Sign Up</a>
               <form action="" className="relative mx-auto w-max">
                 <input type="search" placeholder="Search products"
