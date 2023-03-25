@@ -15,8 +15,8 @@ const Header = () => {
 
 <div className="flex flex-row justify-between text-center items-center">
         <div className="flex flex-row md:mt-4 justify-center">
-            <img src="/src/assets/images/logo-website.png" className= "w-10 h-10 font-Poppins md:ml-20 text-black font-extrabold" alt="" />
-            <h1 className="font-Poppins text-2xl ml-2 mt-0.5">Athletic</h1> 
+            <img src="/src/assets/images/LOGO_AthleticInstinctNew.png" className= "w-28 h-15 font-Poppins md:ml-20 text-black font-extrabold" alt="" />
+            <h1 className="font-Poppins text-2xl ml-2 mt-0.5"></h1> 
         </div>
         <div className='md:hidden'>
           <AiOutlineMenu size={30} onClick={handleNav} />
