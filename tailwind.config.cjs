@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         Poppins: ["Poppins"],
         Kelly: ["Kelly Slab"],
+      },
+      container : {
+        center: true,
+        padding: '1rem'
       }
     },
   },
