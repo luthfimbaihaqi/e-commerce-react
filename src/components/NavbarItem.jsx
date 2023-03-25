@@ -9,7 +9,7 @@ import {TbMoodKid} from 'react-icons/tb'
 const NavbarItem = ({setNav}) => {
   return (
     <div className='w-screen h-screen fixed top-0 left-0 bg-gradient-to-r from-zinc-400 to-gray-200  z-50 md:hidden flex justify-center items-center flex-col'>
-  <img src="/src/assets/images/logo-website.png" alt="profile" class="w-48 object-contain" />
+  <img src="/src/assets/images/LOGO_AthleticInstinctNew.png" alt="profile" class="w-48 object-contain pb-4" />
 <button onClick={() => {setNav(false)}}> <MdOutlineClose className='absolute top-5 right-10 w-7 h-7'/> </button>    
 <Link to="/" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
     
